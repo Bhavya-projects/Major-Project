@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Teacher Name"
+            android:textSize="20dp"
+            android:textColor="#f8f29543"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="harneet"
+            android:textSize="20dp"
+            android:textColor="#214485"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/teachernamefromteacherlistforviewfeedback"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="From Date"
+            android:textSize="20dp"
+            android:textColor="#f8f29543"
+            />
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/edittextforfromdate"
+            android:textColor="#214485"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="To Date"
+            android:textSize="20dp"
+            android:textColor="#f8f29543"
+            />
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/edittextfortodate"
+            android:textColor="#214485"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="300dp"
+        >
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="View Ratings"
+            android:textColor="#214485"
+            android:id="@+id/viewstar"
+            android:textSize="20dp"
+            android:background="#f8f29543"
+            android:layout_marginLeft="50dp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="300dp"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/imageofstar"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="300dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text=""
+            android:textSize="30dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#214485"
+            android:id="@+id/textfeedback"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

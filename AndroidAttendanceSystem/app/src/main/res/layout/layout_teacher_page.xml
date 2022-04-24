@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textColor="#214485"
+            android:textSize="20dp"
+            android:text=" Choose Semester"
+            />
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/spinsemesterforlistingstudent">
+
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textColor="#214485"
+            android:textSize="20dp"
+            android:text=" Choose Class"/>
+        <Spinner
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:id="@+id/spinclassforlistingstudent">
+
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="2dp"
+            android:id="@+id/dummy"
+            android:visibility="gone"
+            />
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="2dp"
+            android:id="@+id/dummy1"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Details"
+        android:id="@+id/submitforgettingstudentlist"
+        android:background="#f8f29543"
+        android:textColor="#214485"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Attendance"
+        android:id="@+id/submitAttendance"
+        android:background="#f8f29543"
+        android:textColor="#214485"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:fillViewport="true">
+
+        <ListView
+            android:id="@+id/listfortakingattendance"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:visibility="visible"></ListView>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

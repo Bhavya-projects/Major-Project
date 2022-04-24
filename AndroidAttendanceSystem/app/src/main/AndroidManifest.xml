@@ -1,0 +1,40 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.harneet.androidattendancesystem">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Admin_Page_Activity"
+                  android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".DemoInitialActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".DemoLoginForm"/>
+        <activity android:name=".Student_Page_Activity"/>
+        <activity android:name=".Teacher_Page_Activity"/>
+        <activity android:name=".TeacherNameForGivingFeedback_Activity"/>
+        <activity android:name=".SepararteActivityForGivingFeedback">
+
+
+        </activity>
+        <activity android:name=".SeprateActivityForViewingFeedback">
+
+
+        </activity>
+
+
+
+    </application>
+
+</manifest>

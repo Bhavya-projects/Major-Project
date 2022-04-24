@@ -1,0 +1,21 @@
+                                        How to use "Android Based Attendance System"?
+
+1)Firstly open Android Studio application.
+
+2)Now open Emulator(Nox) and connect it with studio by clicking run button in Android Studio.
+
+3)Now Start Server(WAMP).
+
+4)Make sure that Sql file, Android Program file and Php scripts file which we provide should be copied in  your Device.
+
+5)Php scripts file should be copied in WAMP Server folder which is mainly in C Drive.
+
+6)Sql file shoul be imported in Server.
+
+7)Now after succesfull connection of Emulator with Studio you can use this Application.
+
+8)First Activity will include Login button, by clicking on it you will redirected to login page activity where your  credentials are aunthenticated.
+
+9)After succesfull aunthentication user can access various modules according to his/her privileges. 
+
+

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="300dp"
+    android:layout_marginTop="80dp">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Teacher Name"
+            android:textSize="20dp"
+            android:textColor="#f8f29543"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="harneet"
+            android:textSize="20dp"
+            android:textColor="#214485"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/teachernamefromteacherlist"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Ratings"
+            android:textSize="20dp"
+            android:textColor="#f8f29543"
+            />
+        <Spinner
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/spinnerforrating">
+
+        </Spinner>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Give comment"
+            android:textSize="20dp"
+            android:textColor="#f8f29543"
+            />
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/edittextforfeedback"
+            android:textColor="#214485"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Save"
+            android:textColor="#214485"
+            android:id="@+id/SaveBtn"
+            android:textSize="20dp"
+            android:background="#f8f29543"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Cancel"
+            android:textColor="#214485"
+            android:id="@+id/CancelBtn"
+            android:textSize="20dp"
+            android:background="#f8f29543"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="5dp"
+            android:layout_height="2dp"
+            android:id="@+id/dummy"
+            android:visibility="gone"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

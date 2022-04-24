@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:background="#f8f29543">
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="200dp">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@mipmap/download"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="800dp"
+            android:layout_height="200dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:textColor="#214485"
+                android:text="Android Attendance System"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Add Teacher"
+            android:textSize="15dp"
+            android:textColor="#214485"
+            android:background="#f8f29543"
+            android:layout_weight="1"
+            android:id="@+id/btn_addteacher"
+            android:layout_marginLeft="1dp"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Add Class"
+            android:textSize="15dp"
+            android:textColor="#214485"
+            android:background="#f8f29543"
+            android:layout_weight="1"
+            android:id="@+id/btn_addclass"
+            android:layout_marginLeft="1dp"/>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Add Student"
+            android:textSize="15dp"
+            android:textColor="#214485"
+            android:background="#f8f29543"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/btn_addstudent"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="View/Edit Details"
+            android:textSize="15dp"
+            android:textColor="#214485"
+            android:background="#f8f29543"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/btn_viewedit"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Reports"
+            android:textSize="15dp"
+            android:textColor="#214485"
+            android:background="#f8f29543"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/btn_report"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="View Feedback"
+            android:textSize="15dp"
+            android:textColor="#214485"
+            android:background="#f8f29543"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/btn_feedback"
+            />
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Logout"
+            android:textSize="15dp"
+            android:textColor="#214485"
+            android:background="#f8f29543"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:id="@+id/btn_logout"
+            />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+
+</LinearLayout>

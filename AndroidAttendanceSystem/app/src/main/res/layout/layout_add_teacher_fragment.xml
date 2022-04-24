@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teacher Details"
+            android:textColor="#f8f29543"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="75dp"
+                android:textColor="#214485"
+                android:textSize="20dp"
+                android:text="Name*"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/EditTeacherName"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fb2410"
+                android:textSize="12dp"
+                android:text=""
+                android:visibility="visible"
+                android:id="@+id/forvalidatingtname"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textColor="#214485"
+                android:textSize="20dp"
+                android:text="User Name*"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/EditTeacherUserName"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fb2410"
+                android:textSize="12dp"
+                android:text=""
+                android:visibility="visible"
+                android:id="@+id/forvalidatingtuname"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textColor="#214485"
+                android:textSize="20dp"
+                android:text="Password*"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/EditTeacherPassword"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fb2410"
+                android:textSize="12dp"
+                android:text=""
+                android:visibility="visible"
+                android:id="@+id/forvalidatingtpass"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textColor="#214485"
+                android:textSize="20dp"
+                android:text="Mobile Number"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/EditTeacherMobileNo"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textColor="#214485"
+                android:textSize="20dp"
+                android:text="Email Id"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/EditTeacherEmailId"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textColor="#214485"
+                android:textSize="20dp"
+                android:text="Highest Qualification"/>
+            <EditText
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:id="@+id/EditTeacherHighestQualification"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="Submit"
+                android:textColor="#214485"
+                android:id="@+id/SubmitAddTeacher"
+                android:textSize="20dp"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="5dp"
+                android:background="#f8f29543"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

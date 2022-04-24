@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f8f29543">
+        <LinearLayout
+            android:layout_width="220dp"
+            android:layout_height="200dp">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@mipmap/download"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="800dp"
+            android:layout_height="200dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:textColor="#214485"
+                android:text="Android Attendance System"
+                android:layout_gravity="center"
+                android:layout_marginLeft="50dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:text="Login"
+            android:textColor="#214485"
+            android:id="@+id/LoginBtn"
+            android:textSize="20dp"
+            android:layout_marginTop="75dp"
+            android:background="#f8f29543"
+            android:layout_marginLeft="310dp" />
+    </LinearLayout>
+</LinearLayout>
